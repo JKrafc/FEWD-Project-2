@@ -1,0 +1,20 @@
+
+
+/*...Base Rules...*/
+  h1 {
+    text-align: center;
+  }
+/*...Layout Rules...*/
+
+/*...Modules Rules...*/
+
+  .main-nav ul{
+    list-style-type: none;
+    list-style-position: inside;
+  }
+
+/*...State Rules...*/
+
+/*...Theme Rules...*/
+
+/*...Media Queries...*/
