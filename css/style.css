@@ -4,10 +4,17 @@
   h1 {
     text-align: center;
   }
+
+  footer {
+    text-align: center;
+  }
 /*...Layout Rules...*/
 
 /*...Modules Rules...*/
 
+  .main-content {
+    text-align: center;
+  }
   .main-nav ul li{
     list-style-type: none;
     width: 100%;
