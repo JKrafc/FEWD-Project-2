@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /*...Base Rules...*/
 html body {
   height: 100%;
@@ -15,7 +14,6 @@ html {
 }
 
 body {
-  max-width: 95%;
   background-color: lightgrey;
 }
 
@@ -23,14 +21,20 @@ img {
   max-width: 95%;
 }
 
+footer {
+  background-color: slategrey;
+  text-align: center;
+  max-width: 95%;
+  padding-top: 20px;
+  margin-top: 10px;
+}
 
 /*...Layout Rules...*/
 
 /*...Modules Rules...*/
   .main-nav p {
     background-color: white;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin: 3px 3px;
     padding: 10px;
   }
 
@@ -38,8 +42,19 @@ img {
     text-align: center;
     padding: 0;
     max-width: 95%;
+    background-color: lightgrey;
   }
 
+  .name-back-to-top {
+    border-top: solid 1px lightgrey;
+    max-width: 100%
+  }
+
+  .name-back-to-top p {
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
 
 /*...State Rules...*/
