@@ -15,8 +15,8 @@
           <p>Portfolio</p>
           <p>Contact</p>
       </div> <!--main-nav-->
-      <div class="introduction">
-        <img src="img/computer.jpg" alt="an image of a computer"/>
+      <div class="introduction clearfix">
+        <img src="img/computer.jpg" alt="an image of a computer" class=clearfix/>
           <p>Hi! I'm a front end web developer who loves responsive design and css.
              I recently finished a degree in front-end web development at Treehouse
              and am excited to put my skills to use.</p>
@@ -25,26 +25,33 @@
 
     <div class="main-content">
       <h2>Portfolio</h2>
-      <div class="marketing-page">
+
+    <div class="one-row">
+      <div class="first-row clearfix">
+        <div class="marketing">
         <img src="img/marketing.jpg" alt="A lightbulb illustrating marketing concepts"/>
           <h3>Marketing Page</h3>
             <p>This page shows the front page of a marketing website meant for a specific
                business I'm interested in.</p>
+        </div><!--marketing-->
 
-      </div> <!--marketing-page-->
-      <div class="search-page">
+        <div class="engine clearfix">
         <img src="img/engine.jpg" alt="an image of a car engine block"/>
           <h3>Search Page</h3>
             <p>This project searches through a specific database to find information
                that the user is trying to look up.</p>
+        </div><!--engine-->
+      </div><!--first-row-->
 
-      </div><!--search-page-->
+      <div class="second-row clearfix">
       <div class="travel-app">
         <img src="img/bicycle.jpg" alt="an image of a pennyfarthing bicycle"/>
           <h3>Travel App</h3>
             <p>This project compares travel times based on different transportation
                transportation methods and chooses the best one.</p>
       </div><!--travel-app-->
+    </div><!--one-row-->
+
 
       <div class="favorites-map">
         <img src="img/treasure map.jpg" alt="an image of a pirate treasure map"/>
@@ -52,7 +59,9 @@
             <p>This project uses mapping apis to plot points for my favorite spots
                in the city for a do it yourself walking tour.</p>
       </div><!--favorites-map-->
+    </div><!--second-row-->
 
+      <div class="third-row clearfix">
       <div class="photo-gallery">
         <img src="img/camera.jpg" alt="a photograph of a camera"/>
           <h3>Photo Gallery</h3>
@@ -66,6 +75,7 @@
             <p>Someone can enter in the numbers they want and press the big
                blue button and get the result.</p>
       </div><!--calculator-->
+    </div><!--third-row-->
     </div><!--main-content-->
 
     <footer>
@@ -75,9 +85,18 @@
       <p>Phone: +1 111 555 1234</p>
       <p>Email: me@yoursite.com</p>
 
-      <div class="name-back-to-top">
-        <p>Joseph</p>
-        <p>Back to top</p>
+      <div class="name-back-to-top clearfix">
+        <div class="Joseph clearfix">
+          <h3>Joseph</h3>
+        </div><!--Joseph-->
+        <div class="top">
+          <p>Back to top</p>
+        </div><!--top-->
+        <div class="navigator">
+            <p>Home</p>
+            <p>Portfolio</p>
+            <p>Contact</p>
+        </div><!--navigator-->
       </div><!--back-to-top-->
     </footer>
   </body>
