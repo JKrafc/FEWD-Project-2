@@ -13,6 +13,10 @@ html {
   margin: auto;
 }
 
+header {
+  text-align: center;
+}
+
 body {
   background-color: lightgrey;
 }
@@ -38,9 +42,12 @@ footer {
     padding: 10px;
   }
 
+  .introduction {
+    margin-top: 30px;
+  }
+
   .main-content {
     text-align: center;
-    padding: 0;
     max-width: 95%;
     background-color: lightgrey;
   }
