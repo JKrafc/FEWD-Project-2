@@ -10,11 +10,12 @@ html body {
 }
 
 html {
-  margin: auto;
+  margin: 0;
 }
 
 header {
   text-align: center;
+  background-color: #F4F4F4;
 }
 
 body {
@@ -28,7 +29,7 @@ img {
 footer {
   background-color: slategrey;
   text-align: center;
-  max-width: 95%;
+  max-width: auto;
   padding-top: 20px;
   margin-top: 10px;
 }
@@ -44,11 +45,12 @@ footer {
 
   .introduction {
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .main-content {
     text-align: center;
-    max-width: 95%;
+    max-width: auto;
     background-color: lightgrey;
   }
 
@@ -65,5 +67,18 @@ footer {
 
 
 /*...State Rules...*/
+
+@media (min-width: 768px) {
+
+  .main-nav p {
+    display: inline-block;
+    background-color: lightgrey;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+}
+
 
 /*...Theme Rules...*/
