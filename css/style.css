@@ -77,79 +77,51 @@ footer {
 
 /*...State Rules...*/
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
 
   img {
     max-height: 194px;
   }
 
-  .main-nav p {
-    display: inline-block;
-    background-color: lightgrey;
-    padding-left: 20px;
-    padding-right: 20px;
+  .main-content {
+    text-align: center;
+  }
+    .marketing,
+    .travel-app,
+    .photo-gallery {
+      float: left;
+      max-width: 40%;
+      margin-left: 15px;
     }
 
-  .introduction p {
-    display: inline-block;
-    max-width: 50%;
-    text-align: left;
-    vertical-align: top;
-    font-size: large;
-  }
-
-  .introduction img {
-    float: right;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    max-width: 40%;
-    vertical-align: top;
-  }
-
-  .first-row,
-  .second-row,
-  .third-row {
-    display: inline-block;
-    max-width: 95%;
-  }
-
-  .engine,
-  .favorites-map,
-  .calculator {
-    float: right;
-    max-width: 45%;
-    margin-left: 15px;
-  }
-
-  .marketing,
-  .travel-app,
-  .photo-gallery {
-    float: left;
-    max-width: 45%;
-    margin-right: 15px;
-  }
-
-  .top {
-    display: none;
-  }
-
-  .Joseph {
-    float: left;
-    display: inline-block;
-    max-width: 40%;
-    margin-left: 20px;
-  }
-
-  .navigator {
-    float: right;
-    max-width: 60%;
-    display: inline;
-    padding-top: 5px;
-  }
+    .engine,
+    .favorites-map,
+    .calculator {
+      float: right;
+      max-width: 40%;
+      margin-right: 15px;
+    }
 }
 
 @media (min-width: 1024px) {
 
+  .main-content {
+    display: inline-block;
+  }
+
+  .marketing,
+  .engine,
+  .travel-app {
+    max-width: 30%;
+    text-align: center;
+  }
+
+  .favorites-map,
+  .photo-gallery,
+  .calculator {
+    max-width: 30%;
+    text-align: center;
+  }
 }
 
 /*...Theme Rules...*/
