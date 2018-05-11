@@ -82,7 +82,10 @@ footer {
   img {
     max-height: 194px;
   }
-
+  .computer {
+    float: right;
+  }
+  
   .main-content {
     text-align: center;
   }
@@ -109,18 +112,54 @@ footer {
     display: inline-block;
   }
 
+  .first-row,
+  .second-row {
+    text-align: center;
+    display: inline-block;
+    width: auto;
+  }
+
   .marketing,
   .engine,
   .travel-app {
     max-width: 30%;
-    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .favorites-map,
   .photo-gallery,
   .calculator {
-    max-width: 30%;
+    max-width: 300px;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .travel-app {
+    margin-left: 30px;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .navigator {
+    display: inline-block;
+  }
+
+  .Joseph {
+    float: left;
+  }
+
+  .navigator {
+    float: right;
+    margin-top: 5px;
+  }
+
+  .Joseph {
+    margin-left: 20px;
+    vertical-align: middle;
   }
 }
 
