@@ -110,6 +110,7 @@ footer {
   .second-row,
   .third-row {
     display: inline-block;
+    max-width: 95%;
   }
 
   .engine,
@@ -149,13 +150,6 @@ footer {
 
 @media (min-width: 1024px) {
 
-  .introduction img {
-    margin-right: 30px;
-    margin-bottom: 30px;
-  }
-
 }
-
-
 
 /*...Theme Rules...*/
