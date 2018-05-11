@@ -85,7 +85,7 @@ footer {
   .computer {
     float: right;
   }
-  
+
   .main-content {
     text-align: center;
   }
@@ -150,6 +150,8 @@ footer {
 
   .Joseph {
     float: left;
+    margin-left: 20px;
+    vertical-align: middle;
   }
 
   .navigator {
@@ -157,10 +159,6 @@ footer {
     margin-top: 5px;
   }
 
-  .Joseph {
-    margin-left: 20px;
-    vertical-align: middle;
-  }
 }
 
 /*...Theme Rules...*/
