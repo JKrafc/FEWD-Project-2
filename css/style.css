@@ -18,6 +18,11 @@ header {
   background-color: #F4F4F4;
 }
 
+a {
+  text-decoration: none;
+  color: grey;
+}
+
 body {
   background-color: lightgrey;
 }
@@ -108,6 +113,21 @@ footer {
 
 @media (min-width: 1024px) {
 
+  .computer {
+    max-height: none;
+    margin-bottom: 20px;
+  }
+
+  .introduction {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .introduction p {
+    font-size: 150%;
+    text-align: left;
+  }
+
   .main-content {
     display: inline-block;
   }
@@ -130,22 +150,18 @@ footer {
   .favorites-map,
   .photo-gallery,
   .calculator {
-    max-width: 300px;
+    max-width: 30%;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .travel-app {
-    margin-left: 30px;
+    margin-left: 45px;
   }
 
   .top {
     display: none;
-  }
-
-  .navigator {
-    display: inline-block;
   }
 
   .Joseph {
@@ -157,7 +173,9 @@ footer {
   .navigator {
     float: right;
     margin-top: 5px;
+    display: inline-block;
   }
+
 
 }
 
