@@ -83,33 +83,53 @@ footer {
 @media (min-width: 768px) {
 
   img {
-    max-height: 194px;
+    max-height: 183px;
   }
   .computer {
     float: right;
+    padding-left: 20px;
   }
 
   .main-content {
     text-align: center;
   }
-    .marketing,
-    .travel-app,
-    .photo-gallery {
-      float: left;
-      max-width: 40%;
-      margin-left: 15px;
-    }
 
-    .engine,
-    .favorites-map,
-    .calculator {
-      float: right;
-      max-width: 40%;
-      margin-right: 15px;
+  .marketing,
+  .engine,
+  .travel-app,
+  .favorites-map,
+  .photo-gallery,
+  .calculator {
+    float: left;
+    max-width: 50%;
+    box-sizing: border-box;
     }
 }
 
+
 @media (min-width: 1024px) {
+
+  h1 {
+    float: left;
+    clear: left;
+    margin-left: 15px;
+  }
+
+  .main-nav {
+    float: right;
+    clear: right;
+  }
+
+  .main-nav p {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .introduction {
+    padding-top: 100px;
+  }
 
   .computer {
     max-height: none;
@@ -126,36 +146,15 @@ footer {
     text-align: left;
   }
 
-  .main-content {
-    display: inline-block;
-  }
-
-  .first-row,
-  .second-row {
-    text-align: center;
-    display: inline-block;
-    width: auto;
-  }
-
   .marketing,
   .engine,
-  .travel-app {
-    max-width: 30%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
+  .travel-app,
   .favorites-map,
   .photo-gallery,
   .calculator {
-    max-width: 30%;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .travel-app {
-    margin-left: 45px;
+    float: left;
+    max-width: 33%;
+    box-sizing: border-box;
   }
 
   .top {
