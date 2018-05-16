@@ -85,6 +85,11 @@ footer {
   img {
     max-height: 183px;
   }
+
+  .main-nav p {
+    display: inline-block;
+  }
+  
   .computer {
     float: right;
     padding-left: 20px;
